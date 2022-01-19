@@ -1,8 +1,6 @@
-using CsvHelper;
 using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
 
-namespace CsvHelperStreamRepro.Controllers;
+namespace StreamWriterConfusion.Controllers;
 
 [Route("api/[controller]/[Action]")]
 public class TestController : ControllerBase
