@@ -2,10 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace StreamWriterConfusion.Controllers;
 
-[Route("api/[controller]/[Action]")]
+[Route("api/[Controller]/[Action]")]
 public class TestController : ControllerBase
 {
-    // http://localhost:5105/api/test/getPlainText
     [HttpGet]
     [Produces("text/plain")]
     public async Task GetPlainText()
